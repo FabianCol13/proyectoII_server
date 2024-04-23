@@ -21,7 +21,7 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
-    "tittle": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -29,7 +29,7 @@
       "type": "string",
       "required": true
     },
-    "citu": {
+    "city": {
       "type": "string",
       "required": true
     },
@@ -38,6 +38,10 @@
       "required": true
     },
     "postal_code": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
       "type": "string",
       "required": true
     }

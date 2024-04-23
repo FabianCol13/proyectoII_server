@@ -807,11 +807,12 @@ export interface ApiAddressAddress extends Schema.CollectionType {
       'oneToOne',
       'plugin::users-permissions.user'
     >;
-    tittle: Attribute.String & Attribute.Required;
+    title: Attribute.String & Attribute.Required;
     address: Attribute.String & Attribute.Required;
-    citu: Attribute.String & Attribute.Required;
+    city: Attribute.String & Attribute.Required;
     state: Attribute.String & Attribute.Required;
     postal_code: Attribute.String & Attribute.Required;
+    phone: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
