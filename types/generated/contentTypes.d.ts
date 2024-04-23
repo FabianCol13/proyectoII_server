@@ -836,6 +836,7 @@ export interface ApiGameGame extends Schema.CollectionType {
     singularName: 'game';
     pluralName: 'games';
     displayName: 'Game';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -854,7 +855,7 @@ export interface ApiGameGame extends Schema.CollectionType {
     video: Attribute.String & Attribute.Required;
     cover: Attribute.Media;
     wallpaper: Attribute.Media & Attribute.Required;
-    gallery: Attribute.Media & Attribute.Required;
+    screenshots: Attribute.Media & Attribute.Required;
     releaseDate: Attribute.Date & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
